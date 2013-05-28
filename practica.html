@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8"> <!-- pcodificacin en español-->
+	<title>mi primra practica </title>
+	<link rel="stylesheet" type="text/css" href="stilo.css">
+	<script src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+			$(".nav_menu li").mouseenter(function(){
+				$(this).css({"background-color":"green"});
+			});
+
+			$(".nav_menu li").mouseleave(function(){
+				$(this).css({"background-color":"red"});
+			});
+		});
+	</script>
+</head>
+<body>
+	<header class="cajita">
+		<p>
+			La innombrable :)
+		</p>
+	</header>
+	<nav class="nav_menu">
+		<ul>
+			<li class="lis">Inicio
+				<ul>
+					<li>zapatos</li>
+					<li>camisas</li>
+					<li>corbatas</li>
+				</ul>
+			</li>
+
+			<li class="lis">Nosotros
+				<ul>
+					<li>zapatos</li>
+					<li>camisas</li>
+					<li>corbatas</li>
+				</ul>
+			</li>
+
+			<li class="lis">Servcio
+				<ul>
+					<li>zapatos</li>
+					<li>camisas</li>
+					<li>corbatas</li>
+				</ul>
+			</li>
+			<li class="lis">Ubicación
+				<ul>
+					<li>zapatos</li>
+					<li>camisas</li>
+					<li>corbatas</li>
+				</ul>
+			</li>
+			<li class="lis">Contáctanos
+				<ul>
+					<li>zapatos</li>
+					<li>camisas</li>
+					<li>corbatas</li>
+				</ul>
+			</li>
+			<li class="lis">Galería
+				<ul>
+					<li>zapatos</li>
+					<li>camisas</li>
+					<li>corbatas</li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</body>
+</html>
